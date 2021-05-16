@@ -17,7 +17,7 @@ public class HeartController : MonoBehaviour
     }
     int objNum = 0;
     int randomCount = 0;
-    while (randomCount < 5)
+    while (randomCount < 7)
     {
       objNum = Random.Range(0, 22);
       heartsCollection[objNum].SetActive(true);

@@ -24,9 +24,9 @@ public class HeartSpecialReward : MonoBehaviour
   void OnTriggerEnter(Collider other)
   {
 
-    if (other.gameObject.tag == "Heart") ;
+    if (other.gameObject.tag == "Person") ;
     {
-      Debug.Log(gameObject.name + " was triggered by " + other.gameObject.name);
+      Debug.Log(gameObject.name + " was triggered by " + other.gameObject.tag);
       cameraTopView.SetActive(true);
       gameObject.SetActive(false);
       player.SetActive(true);

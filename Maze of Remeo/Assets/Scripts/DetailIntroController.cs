@@ -64,7 +64,6 @@ public class DetailIntroController : MonoBehaviour
   public void LoadScene(string sceneName)
   {
     SceneManager.LoadScene(sceneName);
-
   }
 
 }

@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Heart
+  - Goal
+  - Person
   layers:
   - Default
   - TransparentFX

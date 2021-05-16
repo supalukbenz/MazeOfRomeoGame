@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Low Poly Western Saloon/Demo Scene/InfroDanceScene.unity
     guid: 5d5471248510e5945a95df196df0ba75
+  - enabled: 1
+    path: Assets/Scenes/FinalScene.unity
+    guid: 9c1291f9bf8cc4d708c64bf04bdf9462
   m_configObjects: {}
