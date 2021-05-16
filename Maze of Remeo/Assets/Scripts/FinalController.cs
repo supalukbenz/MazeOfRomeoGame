@@ -33,8 +33,8 @@ public class FinalController : MonoBehaviour
 
   IEnumerator Type()
   {
-    // float selectedTime = GamePlayDetailController.selectedTime;
-    float selectedTime = 480;
+    float selectedTime = GamePlayDetailController.selectedTime;
+    // float selectedTime = 480;
     if (selectedTime == 480)
     {
       sentences = new string[] { "Juliet: You're so late, Romeo.", "Romeo: I love you, Juliet...", "Juliet: I love you too but you need to hurry back before the sun rises.", "Romeo: Tomorrow I will come again, wait for me, Juliet..." };

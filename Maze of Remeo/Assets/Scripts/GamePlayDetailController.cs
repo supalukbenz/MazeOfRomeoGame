@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class GamePlayDetailController : MonoBehaviour
@@ -72,6 +73,7 @@ public class GamePlayDetailController : MonoBehaviour
     adviceView.SetActive(false);
     adviceButton.SetActive(false);
     selectModeView.SetActive(true);
+    skipAdviceButton.SetActive(false);
   }
 
   public void skipAllAdvice()
@@ -87,6 +89,11 @@ public class GamePlayDetailController : MonoBehaviour
     timeLeft = time;
     selectedTime = time;
     selectModeView.SetActive(false);
+  }
+
+  public void LoadScene(string sceneName)
+  {
+    SceneManager.LoadScene(sceneName);
   }
 
 }
